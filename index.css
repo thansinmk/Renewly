@@ -1,0 +1,186 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.homepage-title-container {
+    background-color: rgb(183, 208, 255);
+    border: 5px solid #88b4f5;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.homepage-header {
+    font-size: 5rem;              
+    line-height: 1.2;
+    color: #5089f6;            
+    margin-bottom: 1rem;      
+    text-align: center;
+}
+.homepage-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.homepage-text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.homepage-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.scroll-down-container {
+    text-align: center;
+    font-size: 50px;
+    color: #3478f6;
+}
+.blue {
+    color: #5089f6; 
+}
+.green {
+    color: #52ab52; 
+}
+.black {
+    color: #ffffff; 
+}
+.header-image img {
+    width: 70%;
+}
+.about-us-container {
+  background-color: #f0faff; /* Very Light Cyan */
+    padding: 40px 20px;
+    border: 5px solid #88b4f5;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.about-us-section {
+    align-items: center;
+}
+.about-title {
+    color: #4682b4;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #88b4f5;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #2a66d6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.website-button {
+    background-color: #007acc;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+.content-section-container {
+    background-color: #f0faff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0;
+    
+}
+.content-section-title {
+    color: #5089f6;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #88b4f5;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.homepage-content-section-video {
+    border-radius: 0px;
+    padding: 15px;
+    background-color: #f0faff;
+    text-align: center;
+}
+.homepage-content-section-video img {
+    border: 2px solid #88b4f5;
+    border-radius: 0;
+    background-color: #b3f0d6;
+    width: 500px;
+    margin: 0 30px;
+}
+.review-section-container {
+    padding: 40px 20px;
+    background-color: #f0faff;
+    border: 5px solid #88b4f5;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2);
+}
+.review-section-header {
+    color: #007acc;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #88b4f5;
+    padding-bottom: 10px;
+}
+.review-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.review-box {
+    background-color: rgba(80, 137, 246, 1);
+    border: 5px solid #88b4f5;
+    border-radius: 16px;
+    padding: 20px;
+    max-width: 320px;
+    flex: 1 1 260px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.review-box-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f0faff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.reviewer-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0faff;
+    letter-spacing: 1px;
+}
+.review-box-text {
+    font-size: 16px;
+    color: #f0faff;
+    line-height: 1.6;
+    text-align: center;
+    opacity: 0.95;
+}
