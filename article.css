@@ -1,0 +1,83 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #2a66d6;
+}
+
+/* Header */
+header {
+  background-color: rgba(80, 137, 246, 1);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Main Article */
+main {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.article-container {
+  max-width: 800px;
+  width: 100%;
+  background-color: #f0f8ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 100, 0.1);
+}
+
+article h2 {
+  color: #5089f6;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+article ul {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+article ul li {
+  margin-bottom: 0.5rem;
+}
+
+.closing {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .article-container {
+    padding: 1.5rem;
+  }
+
+  article h2 {
+    font-size: 1.25rem;
+  }
+}

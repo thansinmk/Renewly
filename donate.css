@@ -1,0 +1,44 @@
+   body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      padding: 40px;
+      margin: 0;
+    }
+    .image {
+      background-image: url(images/donate.png);  
+      background-size:contain;
+      background-position: center;   
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 80px 20px;
+      border-radius: 15px;
+      margin: 50px auto;
+    }
+    .donation {
+      display: inline-block;
+      background: linear-gradient(to right, #a4c5ff, #4d8af0);
+      color: white;
+      padding: 14px 40px;
+      border-radius: 20px;
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+    .donation-box {
+      background-color: #004fc4;
+      color: white;
+      padding: 30px;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      border-radius: 10px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .donate-button {
+      background-color: #4d8af0;
+      color: white;
+      padding: 12px 36px;
+      border-radius: 30px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }

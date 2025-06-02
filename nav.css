@@ -1,0 +1,129 @@
+  nav {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    }
+  .nav-links a, .dropdown .drop-button {
+    color: #5089f6;
+    padding: 10px 15px; 
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica;
+    background: none;
+    border: none;
+    cursor: pointer; 
+  }
+  .nav-links a:hover, .dropdown:hover .drop-button {
+    background-color: #ddd;
+  }
+  .nav-links a.active {
+    background-color: #5089f6;
+    color: white;
+  }
+  .fa-caret-down {
+    margin-left: 5px;
+  }
+  .dropdown:hover .drop-button {
+    background-color: #5089f6;
+    color: white;
+  }
+  .drop-links {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .drop-links a {
+    color: #5089f6;
+    display: block;
+  }
+  .drop-links a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .drop-links {
+    display: block;
+  }
+  #signup, #login {
+    color: #5089f6;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-left: 10px;
+  }
+  #signup {
+    background-color: transparent;
+    color: #5089f6;
+    border: 1px solid #5089f6;
+    margin-left: auto;
+  }
+  .nav_toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #5089f6;
+  }
+  #menu_toggle {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    nav img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: white;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .nav-links a, .dropdown, .dropdown > .drop-button, #signup, #login {
+      display: block;
+      padding: 12px;
+      width: 100%;
+      margin: 0;
+      text-align: left;
+      border-radius: 0;
+    }
+    .dropdown {
+      padding: 0;
+    }
+    .drop-links {
+      position: static;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+    }
+    .drop-links a {
+      padding: 12px 24px;
+    }
+    .nav_toggle {
+      display: block;
+      padding: 10px;
+      margin-left: auto;
+    }
+    #menu_toggle:checked ~ .nav-links {
+      display: block;
+    }
+    nav {
+      flex-wrap: wrap;
+      padding: 5px 10px;
+    }
+    #signup, #login {
+      margin: 0;
+      border-radius: 0;
+    }
+  }
